@@ -1,0 +1,53 @@
+.card {
+   width: 90%; 
+   max-width: 480px;
+   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+   color: white;
+   margin: 100px auto;
+   border-radius: 20px;
+   padding: 40px 35px;
+   text-align: center;
+}
+
+.weather-icon {
+   width: 170px;
+   margin-top: 30px;
+}
+
+.weather h1 {
+   font-size: 30px;
+   margin-top: 20px;
+   font-weight: 500;
+}
+
+.weather h2 {
+   font-size: 20px;
+   font-weight: 400;
+   margin-top: -10px;
+}
+
+.details {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 30px;
+   padding: 0px 20px;
+}
+
+.details .col {
+   display: flex;
+   flex-direction: column; /* Align items in a column */
+   align-items: center;
+   margin-bottom: 20px; /* Add some space between rows */
+}
+
+.details .col img {
+   width: 170px; /* Same size as rain image */
+   height: auto;
+   margin-bottom: 10px; /* Add some space below the image */
+}
+
+.details .col h3, .details .col p {
+   margin: 0;
+   text-align: center; /* Center the text */
+}
